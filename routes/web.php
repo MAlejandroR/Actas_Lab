@@ -14,3 +14,21 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('index',function(){
+    return view ("sesion");
+});
+
+Route::get('sesion',function(){
+    return view ("sesion");
+});
+Route::post('sesion',function(){
+    return view ("sesion");
+});
+
+Route::post('sesion_helper','SesionesHelper@index');
+Route::post('sesion_request','SesionesRequest@index');
+Route::post('ActasBorrarSesion',function(){
+    session()->flush();
+    return view("index");
+});

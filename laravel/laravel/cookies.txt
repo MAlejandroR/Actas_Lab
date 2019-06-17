@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.laravel.com	TRUE	/	FALSE	1999999999	__cfduid	ddae8fa9209ef2962d79444c453a98c6f1560696638
+

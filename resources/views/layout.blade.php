@@ -37,13 +37,9 @@
     </div>
 </div>
 
-
-
-
-@yield ('contendio')
-
-        <footer class="page-footer font-small mdb-color lighten-3 pt-4">
-@yield ('pie')
+@yield('contenido')
+<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+    @yield('pie')
 </footer>
 
 </body>

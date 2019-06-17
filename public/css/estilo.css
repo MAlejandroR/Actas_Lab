@@ -87,3 +87,86 @@ footer {
     bottom: 0;
     position:fixed;
 }
+
+tr{
+
+
+}
+td.contenido{
+    font-size: 1.6em;
+    align-content: center;
+}
+td.aprobado {
+    font-size: 1.6em;
+    align-content: center;
+    background: red;
+}
+
+fieldset{
+    background: #80bdff;
+    margin:50px;
+    width:40%;
+    padding: 20px;
+}
+
+fieldset.presentacion2{
+    font-size:1.8em;
+
+    color:maroon;
+    font-style: oblique;
+    width:90%;
+}
+button{
+
+}
+
+
+
+legend{
+    color:#0b2e13;
+    font-size:1.4em;
+    background:azure;
+
+}
+input[type=file]{
+    font-size:1.1em;
+
+}
+
+label,input[type=submit], option{
+    font-size:1.2em;
+    margin:10px;
+
+}
+
+input.presentacion, button.presentacion{
+    font-size:1.4em;
+    margin:10px;
+    color:maroon;
+    text-align: right;
+    margin-left: 50%;
+    padding: 10px;
+}
+
+.msj{
+    margin:50px;
+    color:darkred;
+    font-size:2em;
+    alignment: center;
+    background: #9faab7;
+}
+h1{
+    font-size: 2.6em;
+    alignment: center;
+    text-align: center;
+    color:darkblue;
+
+}
+fieldset.presentacion{
+    font-size:2em;
+    padding:10px;
+    margin:15px;
+    color:maroon;
+    font-style: oblique;
+    width:90%;
+}

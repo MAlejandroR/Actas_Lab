@@ -1,0 +1,17 @@
+HTTrack3.48-21 launched on Sun, 16 Jun 2019 16:50:12 at https://www.laraveltip.com/que-son-los-routes-en-laravel/ https://www.laraveltip.com/obtener-relaciones-de-modelos-automaticamente-en-laravel/ https://laravel.com/docs/5.8/
+(winhttrack https://www.laraveltip.com/que-son-los-routes-en-laravel/ https://www.laraveltip.com/obtener-relaciones-de-modelos-automaticamente-en-laravel/ https://laravel.com/docs/5.8/ -O "laravel/laravel" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:50:36	Error: 	"Not Found" (404) at link https://www.laraveltip.com/que-son-los-routes-en-laravel/OneSignalSDKUpdaterWorker.js.php (from https://www.laraveltip.com/que-son-los-routes-en-laravel/)
+16:50:36	Error: 	"Not Found" (404) at link https://www.laraveltip.com/que-son-los-routes-en-laravel/OneSignalSDKWorker.js.php (from https://www.laraveltip.com/que-son-los-routes-en-laravel/)
+16:50:36	Error: 	"Not Found" (404) at link https://www.laraveltip.com/que-son-los-routes-en-laravel/GET (from https://www.laraveltip.com/que-son-los-routes-en-laravel/)
+16:50:36	Error: 	"Not Found" (404) at link https://www.laraveltip.com/obtener-relaciones-de-modelos-automaticamente-en-laravel/OneSignalSDKUpdaterWorker.js.php (from https://www.laraveltip.com/obtener-relaciones-de-modelos-automaticamente-en-laravel/)
+16:50:36	Error: 	"Not Found" (404) at link https://www.laraveltip.com/obtener-relaciones-de-modelos-automaticamente-en-laravel/OneSignalSDKWorker.js.php (from https://www.laraveltip.com/obtener-relaciones-de-modelos-automaticamente-en-laravel/)
+16:50:36	Error: 	"Not Found" (404) at link https://www.laraveltip.com/obtener-relaciones-de-modelos-automaticamente-en-laravel/GET (from https://www.laraveltip.com/obtener-relaciones-de-modelos-automaticamente-en-laravel/)
+
+HTTrack Website Copier/3.48-21 mirror complete in 26 seconds : 88 links scanned, 80 files written (4336983 bytes overall) [1199192 bytes received at 46122 bytes/sec], 4514364 bytes transferred using HTTP compression in 80 files, ratio 25%, 14.6 requests per connection
+(6 errors, 0 warnings, 0 messages)

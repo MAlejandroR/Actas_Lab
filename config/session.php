@@ -1,9 +1,7 @@
 <?php
 
 use Illuminate\Support\Str;
-
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Default Session Driver
@@ -17,9 +15,7 @@ return [
     |            "memcached", "redis", "dynamodb", "array"
     |
     */
-
     'driver' => env('SESSION_DRIVER', 'file'),
-
     /*
     |--------------------------------------------------------------------------
     | Session Lifetime
