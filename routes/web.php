@@ -22,7 +22,7 @@ $d = new \Illuminate\Events\Dispatcher();
 $r= new Router($d);
 
 $r->get('index',function(){
-    return "<h1> increible </h1>";
+    return "<h1> increíble </h1>";
 });
 */
 //curl -X OPTIONS http://localhost:8000/opcion -i //
