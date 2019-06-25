@@ -1,5 +1,18 @@
 <?php
 
+Route::get('index',function(){
+    return view ("actas/index");
+});
+Route::get('/',function(){
+    return view ("actas/index");
+});
+Route::get('gestion_excell',"GestionExcell@index")->name('gestion');
+Route::post('gestion_excell',"GestionExcell@index")->name('gestion');
+Route::get('cargar_ficheros',"GestionExcell@cargar_ficheros")->name('ficheros');
+Route::post('cargar_ficheros',"GestionExcell@cargar_ficheros")->name('ficheros');
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,6 +39,8 @@ $r->get('index',function(){
 });
 */
 //curl -X OPTIONS http://localhost:8000/opcion -i //
+
+/*
 Route::get("primera", function(){
     return ("<h1>Estás en la página primera con método GET</h1>");
 });
@@ -47,6 +62,8 @@ Route::get('pantalla1', function(){
     return view('pantalla1');//Esto es usar un helper
 });
 /*MRM Esto no funciona*/
+
+/*
 Route::get('pantalla2', function(){
     return new View('pantalla2'); //Esto es una facade
 });
@@ -67,6 +84,7 @@ Route::any('/noticias',function(){
     return view('ppal/noticias');
 });
 /*Parametrizando controlando el valor*/
+/*
 Route::get('/numero/{number?}', function($number=4){
     Return "<h2>Estás en el número $number</h2>";
 })->where('number','[0-9]+');
@@ -87,12 +105,6 @@ Route::get('/',function(){
 });
 
 
-
-Route::get('index',function(){
-    return view ("sesion");
-});
-
-
 Route::get('sesion',function(){
     return view ("sesion");
 });
@@ -106,6 +118,16 @@ Route::post('ActasBorrarSesion',function(){
     session()->flush();
     return view("index");
 });
+
+Route::get('edad',function(){
+    return view("edad");
+});
+Route::post('edad1',function(){
+    return view("edad1");
+})->middleware(edad::class);
+
 Route::fallback(function(){
     return "<h1>No existe esta página </h1>";
 });
+
+
